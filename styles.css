@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 body {
   margin: 0;
@@ -10,15 +10,17 @@ body {
 .latest-episodes-container {
   padding: 60px 50px;
   display: flex;
-
-  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-shrink: 0;
 }
 
 .latest-episodes-header {
   margin: 0;
   width: 513px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -26,12 +28,152 @@ body {
   letter-spacing: 2.88px;
 }
 
+.frame {
+    width: 1300px;
+    height: 545px;
+    margin-top: 60px;
+    border-radius: 32px;
+    background: #000;
+}
+
+.episode {
+    display: inline-flex; 
+    float: left; 
+    height: 465px;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 53px;
+    flex-shrink: 0;
+    padding: 40px 40px; 
+
+    box-sizing: border-box;
+    /* width: 778px;
+    height: 465px;
+    display: inline-block; */
+}
+
+
+
+.episode2 {
+    width: 1300px;
+    height: 512px;
+    margin-top: 60px; 
+    border-radius: 32px;
+    background: #000;
+    display: flex; 
+    height: 432px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 53px;
+    flex-shrink: 0;
+    padding: 40px 40px;
+}
+
+.img {
+    width: 389px;
+    height: 465px;
+    flex-shrink: 0;
+}
+
+.img2 {
+    width: 389px;
+    height: 432px;
+    flex-shrink: 0;
+}
+
+h4 {
+    width: auto;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #191919;
+    width: 41px;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+h6 {
+    width: 136px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #191919;
+    width: 104px;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+h5 {
+    width: 66px;
+    flex-shrink: 0;
+    color: #118DA8;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* margin-top: 82px;
+    margin-left: 0px; */
+}
+
+h1 {
+    width: 700px;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; 
+    letter-spacing: 2.56px;
+}
+
+h2 {
+    width: 773px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.btn2 {
+    width: 208px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #118DA8;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.IMAGE {
+  width: 18px;
+  height: 17px;
+  /* display: flex; */
+  justify-content: space-around;
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+
 .btn {
   width: 178px;
   height: 51px;
   border-radius: 6px;
   background: #118da8;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -60,12 +202,13 @@ body {
   padding: 30px 60px;
   margin-bottom: 16px;
   box-sizing: border-box;
+  gap: 40px;
 }
 
 h3 {
   width: 313px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -75,8 +218,8 @@ h3 {
 p {
   color: rgba(255, 255, 255, 0.7);
   width: 132px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
   font-style: normal;
   font-weight: 400;
   line-height: 28.8px;
