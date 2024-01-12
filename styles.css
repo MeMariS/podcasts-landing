@@ -30,21 +30,18 @@ body {
 
 .frame {
     width: 1300px;
-    height: 545px;
     margin-top: 60px;
     border-radius: 32px;
     background: #000;
 }
 
 .episode {
-    display: inline-flex; 
-    float: left; 
-    height: 465px;
+    display: flex;
     justify-content: center;
     align-items: flex-start; 
     gap: 53px;
     flex-shrink: 0;
-    padding: 40px 40px; 
+    padding: 40px 40px;
 
     box-sizing: border-box;
     /* width: 778px;
@@ -81,19 +78,18 @@ body {
     flex-shrink: 0;
 }
 
-h4 {
-    width: auto;
-    height: 27px;
-    flex-shrink: 0;
-    border-radius: 6px;
-    background: #191919;
-    width: 41px;
-    color: #FFF;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
+.episode-type {
+  border-radius: 6px;
+  background: #191919;
+  margin: 7.56px 0 48px;
+  padding: 0 16px;
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  width: fit-content;
 }
 
 h6 {
@@ -111,7 +107,7 @@ h6 {
     line-height: 27px;
 }
 
-h5 {
+.episode-number {
     width: 66px;
     flex-shrink: 0;
     color: #118DA8;
