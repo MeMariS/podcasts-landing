@@ -28,30 +28,11 @@ a {
 
 .hat-menu {
   display: flex;
+  width: 403px;
+  height: 67px;
   padding: 20px;
   justify-content: space-between;
   gap: 40px;
-}
-
-.hat-menu-item {
-  color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
-}
-
-.hat-menu-item:hover {
-  color: #118da8;
-}
-
-.main-header {
-  width: 526px;
-}
-
-.bold-font {
-  font-weight: 700;
 }
 
 .latest-episodes-container {
@@ -191,13 +172,13 @@ h1 {
 }
 
 .jacob-paulaner {
-  display: flex;
-  /* width: 1300px; */
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
-  box-sizing: border-box;
-  padding: 50px;
+    display: flex;
+    /* width: 1300px; */
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    box-sizing: border-box;
+    padding: 50px;
 }
 
 .btn-arrow {
