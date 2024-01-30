@@ -28,85 +28,30 @@ a {
 
 .hat-menu {
   display: flex;
-  width: fit-content;
   padding: 20px;
   justify-content: space-between;
   gap: 40px;
 }
 
-.home {
-  width: 49px;
-  color: #118DA8;
-  font-family: "Roboto", sans-serif;
+.hat-menu-item {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
 }
 
-.episodes {
-  width: 75px;
-  color: #FFF;
-  font-family: "Roboto", sans-serif;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
+.hat-menu-item:hover {
+  color: #118da8;
 }
 
-.about {
-  width: 51px;
-  color: #FFF;
-  font-family: "Roboto", sans-serif;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
-}
-
-.contact {
-  width: 68px;
-  color: #FFF;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
-}
-
-.frame-podcast {
-  width: 1400px;
-  height: 913px;
-}
-
-.podcast-container {
-  display: inline-flex;
-  padding-right: 60px;
-  align-items: center;
-  gap: 60px;
-  padding: 50px 40px;
-}
-
-.img-sticks {
-  width: 68px;
-  height: 74px;
-}
-
-.img-headphones {
-  width: 650px;
-  height: 873px;
-  border-radius: 12px;
-}
-
-.your-podcast {
+.main-header {
   width: 526px;
-  color: #FFF;
-  font-family: "Roboto", sans-serif;
-  font-size: 70px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 88px; /* 125.714% */
-  letter-spacing: 3.2px;
+}
+
+.bold-font {
+  font-weight: 700;
 }
 
 .latest-episodes-container {
