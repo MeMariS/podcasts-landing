@@ -191,13 +191,13 @@ h1 {
 }
 
 .jacob-paulaner {
-  display: flex;
-  /* width: 1300px; */
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
-  box-sizing: border-box;
-  padding: 50px;
+    display: flex;
+    /* width: 1300px; */
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    box-sizing: border-box;
+    padding: 50px;
 }
 
 .btn-arrow {
