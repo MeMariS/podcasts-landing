@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 body {
   margin: 0;
@@ -14,8 +14,10 @@ a {
 .hat {
   padding: 0px 50px;
   margin: 0 auto;
+
   max-width: 1340px;
   height: 119px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +37,7 @@ a {
 
 .hat-menu-item {
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -54,10 +56,78 @@ a {
   font-weight: 700;
 }
 
+.frame-home {
+  height: 913px;
+  padding: 50px 40px 50px;
+}
+
+.home-podcast {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+
+  padding-right: 60px;
+  /* gap: 60px; */
+}
+
+.img-headphones {
+  width: 650px;
+  height: 873px;
+}
+
+.frame-listen {
+  width: 530px;
+  height: 610.578px;
+}
+
+.text-level {
+  width: 526px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px; /* 125.714% */
+  letter-spacing: 3.2px;
+}
+
+.type-level {
+  font-weight: 700;
+}
+
+.img-line {
+  width: 160px;
+  height: 104px;
+  position: absolute;
+}
+
+.listen-on {
+  width: 66px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 22px;
+}
+
+.icon {
+  display: flex;
+  height: 32px;
+  padding-right: 17px;
+  padding-left: 22px;
+  align-items: flex-start;
+  gap: 17px;
+  flex-shrink: 0;
+}
+
 .latest-episodes-container {
   padding: 60px 50px;
-  display: flex;
   margin: 0 auto;
+
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   flex-shrink: 0;
@@ -66,8 +136,10 @@ a {
 .latest-episodes-header {
   margin: 0;
   width: 513px;
+
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+
+  font-family: "Roboto", sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -86,9 +158,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 53px;
   flex-shrink: 0;
+
+  gap: 53px;
   padding: 40px 40px;
+
   box-sizing: border-box;
 }
 
@@ -108,27 +182,35 @@ a {
 
 .episode-type {
   border-radius: 6px;
+
   background: #191919;
+
   margin: 7.56px 0 48px;
   padding: 0 16px;
+
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
+
   width: fit-content;
 }
 
 h6 {
   width: 136px;
   height: 27px;
+
   flex-shrink: 0;
-  border-radius: 6px;
-  background: #191919;
   width: 104px;
+  border-radius: 6px;
+
+  background: #191919;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -138,7 +220,7 @@ h6 {
 .episode-number {
   flex-shrink: 0;
   color: #118da8;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -149,7 +231,7 @@ h6 {
 h1 {
   width: 700px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -161,7 +243,7 @@ h1 {
 .episode-text {
   width: 773px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -172,52 +254,50 @@ h1 {
 .btn-episodes {
   width: 208px;
   height: 51px;
+
   flex-shrink: 0;
   border-radius: 6px;
+
   background: #118da8;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
+
   margin: 18px 0px 0px 0px;
 }
 
-.frame2 {
-  width: 1400px;
-  height: 943px;
-  margin-top: 160px;
-}
-
 .jacob-paulaner {
-    display: flex;
-    /* width: 1300px; */
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    box-sizing: border-box;
-    padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1340px;
+
+  margin: 0 auto;
+  padding: 50px;
+  gap: 60px;
+
+  box-sizing: border-box;
 }
 
 .btn-arrow {
   width: 112px;
   height: 112px;
+
   flex-shrink: 0;
+
   border-radius: 400px;
   background: #118da8;
-}
-
-.img-arrow {
-  /* width: 38px; */
-  /* height: 71px;  */
-  /* transform: rotate(-90deg); */
 }
 
 .greeting {
   width: 126px;
   color: #118da8;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -227,7 +307,7 @@ h1 {
 h2 {
   width: 496px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 65px;
   font-style: normal;
   font-weight: 400;
@@ -238,7 +318,7 @@ h2 {
 .text {
   width: 556px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -248,7 +328,7 @@ h2 {
 .text2 {
   width: 528px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -260,6 +340,81 @@ h2 {
   height: 743px;
   flex-shrink: 0;
   border-radius: 12px;
+}
+
+.frame-contact {
+  height: 587px;
+  padding: 50px 100px;
+}
+
+.contact-container {
+  height: 387px;
+
+  border-radius: 32px;
+
+  background: #000;
+}
+
+.subscribe {
+  /* width: 642px; */
+  height: 330px;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.text-email {
+  width: 139px;
+  color: #118da8;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+
+  margin: 0;
+  padding: 60px 59.13px 0px;
+}
+
+.text-subscribe {
+  width: 431px;
+  color: #fff;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 79.2px; /* 110% */
+  letter-spacing: 2.88px;
+
+  /* padding: 60px 85.13px; */
+}
+
+.form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.form-name {
+  width: 522px;
+  height: 82px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #191919;
+
+  background: #191919;
+}
+
+.form-email {
+  width: 522px;
+  height: 82px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #191919;
+
+  background: #191919;
 }
 
 .IMAGE {
@@ -276,7 +431,8 @@ h2 {
   height: 51px;
   border-radius: 6px;
   background: #118da8;
-  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -312,7 +468,7 @@ h2 {
 h3 {
   width: 313px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -322,7 +478,7 @@ h3 {
 p {
   color: rgba(255, 255, 255, 0.7);
   width: 132px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 23px;
   font-style: normal;
   font-weight: 400;
