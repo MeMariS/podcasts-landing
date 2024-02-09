@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 body {
   margin: 0;
@@ -37,7 +37,7 @@ a {
 
 .hat-menu-item {
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -62,9 +62,9 @@ a {
 }
 
 .img-sticks {
-  position: relative;
-  top: 4.2%;
-  left: 5.5%;
+  position: absolute;
+  left: -25px;
+  top: -25px;
 }
 
 .home-podcast {
@@ -75,6 +75,10 @@ a {
 
   padding-right: 60px;
   /* gap: 60px; */
+}
+
+.img-headphones-container {
+  position: relative;
 }
 
 .img-headphones {
@@ -90,12 +94,14 @@ a {
 .text-level {
   width: 526px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 70px;
   font-style: normal;
   font-weight: 400;
   line-height: 88px; /* 125.714% */
   letter-spacing: 3.2px;
+
+  position: relative;
 }
 
 .type-level {
@@ -105,14 +111,14 @@ a {
 .img-line {
   width: 160px;
   height: 104px;
-  position: relative;
-  right: 63%;
+  position: absolute;
+  left: 0;
 }
 
 .listen-on {
   width: 66px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -146,7 +152,7 @@ a {
 
   color: #fff;
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -197,7 +203,7 @@ a {
 
   color: #fff;
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -217,7 +223,7 @@ h6 {
   background: #191919;
   color: #fff;
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -227,7 +233,7 @@ h6 {
 .episode-number {
   flex-shrink: 0;
   color: #118da8;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -238,7 +244,7 @@ h6 {
 h1 {
   width: 700px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -250,7 +256,7 @@ h1 {
 .episode-text {
   width: 773px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -268,7 +274,7 @@ h1 {
   background: #118da8;
   color: #fff;
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -304,7 +310,7 @@ h1 {
 .greeting {
   width: 126px;
   color: #118da8;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -314,7 +320,7 @@ h1 {
 h2 {
   width: 496px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 65px;
   font-style: normal;
   font-weight: 400;
@@ -325,7 +331,7 @@ h2 {
 .text {
   width: 556px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -335,7 +341,7 @@ h2 {
 .text2 {
   width: 528px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -383,7 +389,7 @@ h2 {
   width: 139px;
   color: #118da8;
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -396,7 +402,7 @@ h2 {
   width: 431px;
   color: #fff;
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -445,11 +451,13 @@ h2 {
   background: #118da8;
 
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: 28.8px;
+
+  cursor: pointer;
 }
 
 .img-sticks2 {
@@ -473,7 +481,7 @@ h2 {
   border-radius: 6px;
   background: #118da8;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -509,7 +517,7 @@ h2 {
 h3 {
   width: 313px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -519,7 +527,7 @@ h3 {
 p {
   color: rgba(255, 255, 255, 0.7);
   width: 132px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 23px;
   font-style: normal;
   font-weight: 400;
@@ -536,7 +544,7 @@ p {
 .work-style {
   color: rgba(255, 255, 255, 0.7);
   width: 192px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -547,7 +555,7 @@ p {
 .blocks {
   color: rgba(255, 255, 255, 0.7);
   width: 152px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
