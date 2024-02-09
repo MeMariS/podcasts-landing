@@ -61,6 +61,12 @@ a {
   padding: 50px 40px 50px;
 }
 
+.img-sticks {
+  position: relative;
+  top: 4.2%;
+  left: 5.5%;
+}
+
 .home-podcast {
   display: flex;
   align-items: center;
@@ -99,7 +105,8 @@ a {
 .img-line {
   width: 160px;
   height: 104px;
-  position: absolute;
+  position: relative;
+  right: 63%;
 }
 
 .listen-on {
@@ -353,14 +360,23 @@ h2 {
   border-radius: 32px;
 
   background: #000;
+
+  box-sizing: border-box;
 }
 
 .subscribe {
   /* width: 642px; */
-  height: 330px;
+  /* height: 330px; */
 
   display: flex;
   align-items: flex-start;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.about-subscribe {
+  /* width: 642px; */
+  height: 330px;
 }
 
 .text-email {
@@ -373,8 +389,7 @@ h2 {
   font-weight: 400;
   line-height: 27px;
 
-  margin: 0;
-  padding: 60px 59.13px 0px;
+  padding: 59.13px 0px 0px;
 }
 
 .text-subscribe {
@@ -388,13 +403,13 @@ h2 {
   line-height: 79.2px; /* 110% */
   letter-spacing: 2.88px;
 
-  /* padding: 60px 85.13px; */
+  margin: 0;
 }
 
 .form {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  /* width: 522px; */
+  /* height: 252px; */
+  padding: 60px 0px;
 }
 
 .form-name {
@@ -405,6 +420,9 @@ h2 {
   border: 1px solid #191919;
 
   background: #191919;
+
+  margin-bottom: 20px;
+  padding: 0px 19px;
 }
 
 .form-email {
@@ -415,6 +433,29 @@ h2 {
   border: 1px solid #191919;
 
   background: #191919;
+
+  margin-bottom: 20px;
+  padding: 0px 19px;
+}
+
+.btn-submit {
+  width: 87px;
+  height: 48px;
+  border-radius: 6px;
+  background: #118da8;
+
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+
+.img-sticks2 {
+  position: relative;
+  top: -10%;
+  left: -3%;
 }
 
 .IMAGE {
@@ -483,4 +524,33 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 28.8px;
+}
+
+.frame-foot {
+  height: 438px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.work-style {
+  color: rgba(255, 255, 255, 0.7);
+  width: 192px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-top: 0px;
+}
+
+.blocks {
+  color: rgba(255, 255, 255, 0.7);
+  width: 152px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-top: 0px;
 }
