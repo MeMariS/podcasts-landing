@@ -60,8 +60,10 @@
       </div>
     </div>
     <div class="latest-episodes-container" id="episodes">
-      <h2 class="latest-episodes-header">Latest episodes</h2>
-      <button class="btn">View all episodes</button>
+      <div class="latest-episodes-header-container">
+        <h2 class="latest-episodes-header">Latest episodes</h2>
+        <button class="btn">View all episodes</button>
+      </div>
       <div class="frame">
         <div class="episode">
           <img src="images/console.svg" alt="пульт" class="img-console" />
@@ -139,8 +141,11 @@
             <h5 class="text-subscribe">Subscribe for updates</h5>
           </div>
           <div class="form">
-            <input type="text" name="Name" placeholder="Name" />
-            <input type="text" name="email" placeholder="Email" />
+            <input type="text" name="name" placeholder="Name" />
+            <input type="email" name="email" placeholder="Email" />
+            <input type="password" name="pass" placeholder="password" />
+            <input type="textarea" name="text" placeholder="Text" />
+            <textarea name="text_1" id="1" cols="10" rows="5"></textarea>
             <button class="btn-submit">Submit</button>
           </div>
         </div>
@@ -206,10 +211,10 @@
     <div class="frame-foot">
       <img src="images/logo.svg" alt="castaway" class="img-castaway" />
       <div class="information">
-        <a href="#home"><p class="blocks">Home</p></a>
-        <a href="#about"><p class="blocks">About</p> </a>
-        <a href="#episodes"><p class="blocks">Episodes</p></a>
-        <a href="#contact"><p class="blocks">Contact</p></a>
+        <a class="blocks" href="#home">Home</a>
+        <a class="blocks" href="#about">About</a>
+        <a class="blocks" href="#episodes">Episodes</a>
+        <a class="blocks" href="#contact">Contact</a>
       </div>
       <div class="guide">
         <p class="work-style">Style Guide</p>

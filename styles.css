@@ -15,6 +15,11 @@ a:hover {
   color: #118da8;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
 .hat {
   padding: 0px 50px;
   margin: 0 auto;
@@ -130,12 +135,19 @@ a:hover {
 
 .latest-episodes-container {
   padding: 60px 50px;
-  margin: 0 auto;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   flex-shrink: 0;
+}
+
+.latest-episodes-header-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  width: 100%;
+  align-items: center;
 }
 
 .latest-episodes-header {
@@ -155,6 +167,8 @@ a:hover {
   margin-top: 60px;
   border-radius: 32px;
   background: #000;
+  max-width: 1300px;
+  width: 100%;
 }
 
 .episode {
@@ -258,11 +272,10 @@ h1 {
   justify-content: space-between;
   align-items: center;
 
-  max-width: 1340px;
+  max-width: 1300px;
 
   margin: 0 auto;
-  padding: 50px;
-  gap: 60px;
+  padding-top: 50px;
 
   box-sizing: border-box;
 }
@@ -498,6 +511,12 @@ p {
   margin-top: 0px;
 }
 
+.information {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .blocks {
   color: rgba(255, 255, 255, 0.7);
   font-family: 'Roboto', sans-serif;
@@ -505,5 +524,9 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 28.8px;
-  margin-top: 0px;
+  margin-top: 20px;
+}
+
+.blocks:first-child {
+  margin-top: 0;
 }
