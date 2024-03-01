@@ -32,12 +32,6 @@ button {
   align-items: center;
 }
 
-@media (max-width: 1340px) {
-  .hat {
-    width: 768px 
-  }
-} 
-
 .img-castaway {
   width: 160px;
   height: 33px;
@@ -48,6 +42,22 @@ button {
   padding: 20px;
   justify-content: space-between;
   gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .hat {
+    padding: 0 10px;
+    height: 70px;
+  }
+
+  .img-castaway {
+    width: 100px;
+  }
+
+  .hat-menu {
+    gap: 10px;
+    padding: 20px 0 20px 10px;
+  }
 }
 
 .hat-menu-item {
@@ -92,11 +102,22 @@ button {
 
 .img-headphones {
   width: 650px;
-  height: 873px;
+}
+
+@media (max-width: 1300px) {
+  .img-headphones {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .img-headphones-container {
+    display: none;
+  }
 }
 
 .text-level {
-  width: 526px;
+  max-width: 526px;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 70px;
@@ -108,15 +129,33 @@ button {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .text-level {
+    max-width: 300px;
+
+    margin-top: 0;
+    margin-bottom: 40px;
+
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
+
 .type-level {
   font-weight: 700;
 }
 
 .img-line {
   width: 160px;
-  height: 104px;
   position: absolute;
   left: 0;
+}
+
+@media (max-width: 768px) {
+  .img-line {
+    width: 100px;
+  }
 }
 
 .listen-on {
@@ -527,7 +566,6 @@ p {
 .information {
   display: flex;
   flex-direction: column;
-
 }
 
 .blocks {
