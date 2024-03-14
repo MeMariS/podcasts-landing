@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 body {
   margin: 0;
@@ -62,7 +62,7 @@ button {
 
 .hat-menu-item {
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -79,6 +79,12 @@ button {
 
 .frame-home {
   padding: 50px 40px 50px;
+}
+
+@media (max-width: 768px) {
+  .frame-home {
+    padding: 25px 15px 25px;
+  }
 }
 
 .img-sticks {
@@ -117,9 +123,9 @@ button {
 }
 
 .text-level {
-  max-width: 526px;
+  width: 526px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 70px;
   font-style: normal;
   font-weight: 400;
@@ -160,7 +166,7 @@ button {
 
 .listen-on {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -171,14 +177,30 @@ button {
 .icon {
   display: flex;
   justify-content: space-between;
-  height: 32px;
-  padding-right: 17px;
+  /* padding-right: 17px; */
   padding-left: 22px;
   align-items: flex-start;
   /* gap: 17px; */
   flex-shrink: 0;
 
   width: 267px;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    width: 170px;
+    padding-left: 17px;
+  }
+}
+
+.img-icon {
+  width: 32px;
+}
+
+@media (max-width: 768px) {
+  .img-icon {
+    width: 20px;
+  }
 }
 
 .latest-episodes-container {
@@ -188,6 +210,12 @@ button {
   flex-wrap: wrap;
   justify-content: space-around;
   flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .latest-episodes-container {
+    padding: 20px 10px;
+  }
 }
 
 .latest-episodes-header-container {
@@ -203,12 +231,20 @@ button {
 
   color: #fff;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
   line-height: 79.2px; /* 123.75% */
   letter-spacing: 2.88px;
+}
+
+@media (max-width: 768px) {
+  .latest-episodes-header {
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
 }
 
 .frame {
@@ -230,16 +266,42 @@ button {
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  .episode {
+    padding: 20px 15px;
+  }
+}
+
 .img-console {
   width: 389px;
-  height: 465px;
-  flex-shrink: 0;
+}
+
+@media (max-width: 1300px) {
+  .img-console {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .img-console {
+    display: none;
+  }
 }
 
 .img-microphone {
   width: 389px;
-  height: 432px;
-  flex-shrink: 0;
+}
+
+@media (max-width: 1300px) {
+  .img-microphone {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .img-microphone {
+    display: none;
+  }
 }
 
 .episode-type {
@@ -252,7 +314,7 @@ button {
 
   color: #fff;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -261,10 +323,19 @@ button {
   width: fit-content;
 }
 
+@media (max-width: 768px) {
+  .episode-type {
+    margin: 4px 0px 20px;
+
+    font-size: 13px;
+    line-height: normal;
+  }
+}
+
 .episode-number {
   flex-shrink: 0;
   color: #118da8;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -272,10 +343,17 @@ button {
   margin: 0px 0px;
 }
 
+@media (max-width: 768px) {
+  .episode-number {
+    font-size: 13px;
+    line-height: normal;
+  }
+}
+
 h1 {
   width: 700px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -284,15 +362,53 @@ h1 {
   margin: 28px 0px 28px;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    width: 400px;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: normal;
+    margin: 15px 0px 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    width: 300px;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: normal;
+    margin: 15px 0px 15px;
+  }
+}
+
 .episode-text {
   width: 773px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 33px;
   margin: 0px;
+}
+
+@media (max-width: 768px) {
+  .episode-text {
+    width: 350px;
+    font-size: 15px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
+
+@media (max-width: 400px) {
+  .episode-text {
+    width: 250px;
+    font-size: 15px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
 }
 
 .btn-episodes {
@@ -305,13 +421,23 @@ h1 {
   background: #118da8;
   color: #fff;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
 
   margin: 18px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .btn-episodes {
+    width: 120px;
+    height: 35px;
+
+    font-size: 11px;
+    line-height: normal;
+  }
 }
 
 .jacob-paulaner {
@@ -327,6 +453,13 @@ h1 {
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  .jacob-paulaner {
+    /* padding-top: 25px; */
+    padding: 25px 10px;
+  }
+}
+
 .btn-arrow {
   width: 112px;
   height: 112px;
@@ -337,19 +470,44 @@ h1 {
   background: #118da8;
 }
 
+@media (max-width: 768px) {
+  .btn-arrow {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.img-arrow {
+  width: 71px;
+}
+
+@media (max-width: 768px) {
+  .img-arrow {
+    width: 40px;
+  }
+}
 .greeting {
   width: 126px;
   color: #118da8;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
 }
 
+@media (max-width: 768px) {
+  .greeting {
+    width: 100px;
+
+    font-size: 14px;
+    line-height: normal;
+  }
+}
+
 h2 {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 65px;
   font-style: normal;
   font-weight: 400;
@@ -357,35 +515,78 @@ h2 {
   letter-spacing: 2.88px;
 }
 
+@media (max-width: 768px) {
+  h2 {
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: normal;
+    margin: 20px 0px;
+  }
+}
+
 .text {
   width: 556px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 33px;
+}
+
+@media (max-width: 768px) {
+  .text {
+    width: 400px;
+    font-size: 18px;
+    line-height: normal;
+  }
 }
 
 .text2 {
   width: 528px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 33px;
 }
 
+@media (max-width: 768px) {
+  .text2 {
+    width: 370px;
+    font-size: 18px;
+    line-height: normal;
+  }
+}
+
 .img-man {
   width: 650px;
-  height: 743px;
-  flex-shrink: 0;
+  /* height: 743px;
+  flex-shrink: 0; */
   border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .img-man {
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .img-man {
+    display: none;
+  }
 }
 
 .frame-contact {
   padding: 50px 100px;
+}
+
+@media (max-width: 768px) {
+  .frame-contact {
+    padding: 25px 50px;
+  }
 }
 
 .contact-container {
@@ -407,11 +608,23 @@ h2 {
   height: 330px;
 }
 
+@media (max-width: 768px) {
+  .about-subscribe {
+    height: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-subscribe {
+    height: 130px;
+  }
+}
+
 .text-email {
   width: 139px;
   color: #118da8;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -420,11 +633,31 @@ h2 {
   padding: 59.13px 0px 0px;
 }
 
+@media (max-width: 768px) {
+  .text-email {
+    width: 100px;
+
+    font-size: 14px;
+    line-height: normal;
+    padding: 40px 0px 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .text-email {
+    width: 70px;
+
+    font-size: 10px;
+    line-height: normal;
+    padding: 30px 0px 0px;
+  }
+}
+
 .text-subscribe {
   width: 431px;
   color: #fff;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -434,10 +667,42 @@ h2 {
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .text-subscribe {
+    width: 250px;
+
+    font-size: 33px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
+
+@media (max-width: 500px) {
+  .text-subscribe {
+    width: 120px;
+
+    font-size: 17px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
+
 .form {
   padding: 60px 0px;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .form {
+    padding: 30px 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .form {
+    padding: 20px 0px;
+  }
 }
 
 input {
@@ -456,6 +721,28 @@ input {
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  input {
+    width: 300px;
+    height: 50px;
+
+    margin-bottom: 15px;
+
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  input {
+    width: 110px;
+    height: 25px;
+
+    margin-bottom: 8px;
+
+    font-size: 8px;
+  }
+}
+
 .btn-submit {
   width: 87px;
   height: 48px;
@@ -463,7 +750,7 @@ input {
   background: #118da8;
 
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -472,10 +759,36 @@ input {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .btn-submit {
+    width: 50px;
+    height: 30px;
+
+    font-size: 10px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn-submit {
+    width: 40px;
+    height: 20px;
+
+    font-size: 8px;
+    line-height: normal;
+  }
+}
+
 .img-sticks2 {
   position: relative;
   top: -10%;
   left: -3%;
+}
+
+@media (max-width: 768px) {
+  .img-sticks2 {
+    display: none;
+  }
 }
 
 .IMAGE {
@@ -486,17 +799,34 @@ input {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .IMAGE {
+    width: 15px;
+    height: 14px;
+  }
+}
+
 .btn {
   width: 178px;
   height: 51px;
   border-radius: 6px;
   background: #118da8;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 110px;
+    height: 35px;
+
+    font-size: 11px;
+    line-height: normal;
+  }
 }
 
 .reviews-container {
@@ -512,6 +842,12 @@ input {
   max-width: 1300px;
 }
 
+@media (max-width: 768px) {
+  .reviews-container {
+    padding: 40px 20px;
+  }
+}
+
 .review {
   flex-shrink: 0;
   border-radius: 32px;
@@ -521,20 +857,32 @@ input {
   padding: 54px 50px 51px;
 }
 
+@media (max-width: 768px) {
+  .review {
+    padding: 34px 30px 31px;
+  }
+}
+
 h3 {
   width: 313px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: 43.2px;
 }
 
+/* @media (max-width: 768px) {
+  h3 {
+    font-size: 20px;
+    line-height: normal;
+  }
+} */
 p {
   color: rgba(255, 255, 255, 0.7);
   width: 132px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 23px;
   font-style: normal;
   font-weight: 400;
@@ -555,12 +903,21 @@ p {
 
 .work-style {
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 28.8px;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .work-style {
+  font-size: 12px;
+  line-height: normal;
+
+  margin-top: 10px;
+  }
 }
 
 .information {
@@ -568,14 +925,29 @@ p {
   flex-direction: column;
 }
 
+@media (max-width: 768px) {
+  .information {
+    padding: 5px;
+  }
+}
+
 .blocks {
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 28.8px;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .blocks {
+  font-size: 12px;
+  line-height: normal;
+
+  margin-top: 10px;
+  }
 }
 
 .blocks:first-child {
